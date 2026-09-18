@@ -7,7 +7,6 @@ public class Filme
     public string Descricao { get; set; } = string.Empty;
     public DateTime DataCriacao { get; set; } = DateTime.UtcNow;
 
-    // Propriedade requerida na etapa 6 da atividade
     public int DuracaoEmMinutos { get; set; }
 
     public int DiretorId { get; set; }
